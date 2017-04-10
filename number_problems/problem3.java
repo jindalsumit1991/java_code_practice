@@ -10,13 +10,12 @@ public class problem3
 {
     public static void main(String[] str)
     {
-        int count = 10;
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the length of main sequence: ");
+
+        int count = scanner.nextInt();
         int[] numbers = new int[count];
 
-        /* They say int has a default value of 0, but compiler gives me error
-           if I don't initialize the int variables */
-
-        Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the 10 numbers");
 
         System.out.print("\nInput the numbers seperated by space/newline: ");

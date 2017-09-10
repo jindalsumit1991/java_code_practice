@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
-
 public class fibBottomUp {
 
     public static long fib(int n) {
